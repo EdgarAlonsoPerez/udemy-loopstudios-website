@@ -1,4 +1,5 @@
 module.exports = {
+    content: ['./*.html'],
     theme: {
         screens: {
             sm: '640px',
@@ -8,9 +9,12 @@ module.exports = {
         },
         extend: {
             fontFamily: {
-                sans: ['Josefin Sans', 'sans-serif']
+                sans: ['Josefin Sans', 'sans-serif'],
+                alata: ['Alata']
             },
-            alata: ['Alata']
+            letterSpacing: {
+                widest: '.3em',
+            },
         }
     },
     plugins: []
